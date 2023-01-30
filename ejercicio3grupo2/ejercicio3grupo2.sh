@@ -1,11 +1,5 @@
 #!/bin/bash
 
-# Comprobamos que se ha pasado un argumento
-if [ $# -eq 0 ]
-then
-    echo "Error: No se ha especificado el directorio."
-    exit 1
-fi
 
 # Comprobamos que el directorio existe
 if [ ! -d "$1" ]
